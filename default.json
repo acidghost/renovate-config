@@ -6,7 +6,6 @@
     "schedule:weekly"
   ],
   "assigneesFromCodeOwners": true,
-  "automerge": true,
   "labels": [
     "renovate",
     "lcm/{{updateType}}"
