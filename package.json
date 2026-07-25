@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "2.5.4",
+    "renovate": "43.269.2"
+  },
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome ci .",
+    "validate": "./scripts/validate.sh"
+  }
+}
