@@ -13,7 +13,9 @@
   "minimumReleaseAge": "7 days",
   "osvVulnerabilityAlerts": true,
   "vulnerabilityAlerts": {
-    "addLabels": ["security"]
+    "addLabels": [
+      "security"
+    ]
   },
   "postUpdateOptions": [
     "gomodTidy"
