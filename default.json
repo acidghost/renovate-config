@@ -11,6 +11,10 @@
     "lcm/{{updateType}}"
   ],
   "minimumReleaseAge": "7 days",
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "addLabels": ["security"]
+  },
   "postUpdateOptions": [
     "gomodTidy"
   ],
