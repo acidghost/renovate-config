@@ -1,0 +1,27 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Match biome version tags when installed from mise",
+  "extends": [
+    "customManagers:biomeVersions"
+  ],
+  "packageRules": [
+    {
+      "matchDepNames": [
+        "biome"
+      ],
+      "matchManagers": [
+        "mise"
+      ],
+      "extractVersion": "@biomejs/biome@(?<version>.+)"
+    },
+    {
+      "matchManagers": [
+        "custom.jsonata"
+      ],
+      "matchDepNames": [
+        "@biomejs/biome"
+      ],
+      "overrideDepName": "biome"
+    }
+  ]
+}

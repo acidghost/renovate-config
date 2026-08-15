@@ -3,6 +3,6 @@
   "extends": [
     "local>acidghost/renovate-config",
     "local>acidghost/renovate-config:approve(patch)",
-    "customManagers:biomeVersions"
+    "local>acidghost/renovate-config:mise-biome"
   ]
 }
