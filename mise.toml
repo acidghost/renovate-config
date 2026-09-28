@@ -2,5 +2,5 @@
 minimum_release_age = "7d"
 
 [tools]
-biome = "2.5.13"
+biome = "2.5.14"
 node = "24.21.0"
