@@ -28,7 +28,7 @@
     },
     {
       "groupName": "golang",
-      "matchDatasources":[
+      "matchDatasources": [
         "docker",
         "golang-version"
       ],
