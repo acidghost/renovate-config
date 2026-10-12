@@ -25,6 +25,17 @@
         "npm"
       ],
       "minimumReleaseAge": "7 days"
+    },
+    {
+      "groupName": "golang",
+      "matchDatasources":[
+        "docker",
+        "golang-version"
+      ],
+      "matchDepNames": [
+        "/^go$/",
+        "/(?:^|/)golang$/"
+      ]
     }
   ],
   "prHourlyLimit": 6,
