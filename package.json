@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "renovate": "44.151.2"
+    "renovate": "44.167.5"
   },
   "scripts": {
     "format": "biome format --write .",
