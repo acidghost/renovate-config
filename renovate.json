@@ -5,5 +5,20 @@
     "local>acidghost/renovate-config:approve(minor)",
     "local>acidghost/renovate-config:approve(patch)",
     "local>acidghost/renovate-config:mise-biome"
+  ],
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions",
+        "npm"
+      ],
+      "matchPackageNames": [
+        "jdx/mise",
+        "renovate"
+      ],
+      "schedule": [
+        "* 0-4 * * 1"
+      ]
+    }
   ]
 }
