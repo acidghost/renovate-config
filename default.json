@@ -42,6 +42,7 @@
       "groupName": "mise",
       "matchDatasources": [
         "docker",
+        "github-release-attachments",
         "github-releases",
         "github-tags"
       ],
