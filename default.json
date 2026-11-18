@@ -28,10 +28,6 @@
     },
     {
       "groupName": "golang",
-      "matchDatasources": [
-        "docker",
-        "golang-version"
-      ],
       "matchDepNames": [
         "/^go$/",
         "/(?:^|/)golang$/"
