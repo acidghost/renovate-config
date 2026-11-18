@@ -37,6 +37,19 @@
         "/^go$/",
         "/(?:^|/)golang$/"
       ]
+    },
+    {
+      "groupName": "mise",
+      "matchDatasources": [
+        "docker",
+        "github-releases",
+        "github-tags"
+      ],
+      "matchDepNames": [
+        "/^jdx/mise-action$/",
+        "/^jdx/mise$/",
+        "/(?:^|/)jdxcode/mise$/"
+      ]
     }
   ],
   "prHourlyLimit": 6,
