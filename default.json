@@ -27,6 +27,18 @@
       "minimumReleaseAge": "7 days"
     },
     {
+      "groupName": "bun",
+      "matchDatasources": [
+        "docker",
+        "github-releases",
+        "npm"
+      ],
+      "matchDepNames": [
+        "/(?:^|/)bun$/",
+        "@types/bun"
+      ]
+    },
+    {
       "groupName": "golang",
       "matchDatasources": [
         "docker",
