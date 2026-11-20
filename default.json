@@ -28,6 +28,7 @@
     },
     {
       "groupName": "bun",
+      "commitMessageExtra": "to v{{{newMajor}}}.{{{newMinor}}}.{{{newPatch}}}",
       "matchDatasources": [
         "docker",
         "github-releases",
