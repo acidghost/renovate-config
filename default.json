@@ -41,6 +41,7 @@
     },
     {
       "groupName": "golang",
+      "commitMessageExtra": "to v{{{newMajor}}}.{{{newMinor}}}.{{{newPatch}}}",
       "matchDatasources": [
         "docker",
         "github-tags",
