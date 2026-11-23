@@ -3,4 +3,4 @@ minimum_release_age = "7d"
 
 [tools]
 biome = "2.6.8"
-node = "26.13.0"
+node = "26.13.1"
